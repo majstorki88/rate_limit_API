@@ -14,7 +14,7 @@ import javax.servlet.http.HttpServletRequest;
  * Created by nemanja on 9/17/17.
  */
 @RestController
-@RequestMapping(value = "/greeting", produces = MediaType.TEXT_PLAIN_VALUE)
+@RequestMapping(value = "/greet", produces = MediaType.TEXT_PLAIN_VALUE)
 public class GreetController {
 
     private static final String template = "Hi, %s!";

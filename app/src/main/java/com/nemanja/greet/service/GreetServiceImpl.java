@@ -17,7 +17,7 @@ import java.util.concurrent.ConcurrentMap;
 public class GreetServiceImpl implements GreetService {
 
     private int callLimit = 10;
-    private int timeLimit = 100;
+    private int timeLimit = 60;
     private Object lock = new Object();
     ConcurrentMap<String, Greet> clientsMap = new ConcurrentHashMap<String, Greet>();
 
