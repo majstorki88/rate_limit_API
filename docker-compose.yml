@@ -1,0 +1,6 @@
+tomcat1:
+  image: tomcat
+  volumes:
+   - ./tomcat/server.xml:/usr/local/tomcat/conf/server.xml
+   - ./tomcat/ROOT:/usr/local/tomcat/webapps/ROOT
+   - ./tomcat/tomcat-users.xml:/usr/local/tomcat/conf/tomcat-users.xml

@@ -27,3 +27,16 @@ Za Load balanser i aplikaciju koja se vrti na nodovima, kreirali bi bazu i broj 
 
 
 UPUTSTVO ZA IMPLEMENTACIJU:
+
+Source kod se nalazi u folderu app i .java fajlovi su  na lokacijama src\main\java\com\nemanja\greet\
+
+izvršni i kopajlirani kod se nalazi na lokaciji tomcat/ROOT
+
+PREREQUISITES:
+
+Za source kod - razvojno okruženje IntelliJ
+
+Za kontejnere - CentOS 7 x64, instalirani paketi docker engine i docker compose.
+Instalacija se može naći na https://github.com/majstorki88/load_balanser
+
+Za implementaciju je dovoljno pokrenuti komandu docker-compose -f docker-compose.yml iz foldera rate_limit_API
