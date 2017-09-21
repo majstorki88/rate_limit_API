@@ -6,10 +6,10 @@ Built-By: nemanjama
 Implementation-Vendor-Id: com.nemanja
 Spring-Boot-Version: 1.5.7.RELEASE
 Implementation-Vendor: Pivotal Software, Inc.
-Main-Class: org.springframework.boot.loader.JarLauncher
+Main-Class: org.springframework.boot.loader.WarLauncher
 Start-Class: com.nemanja.greet.GreetApplication
-Spring-Boot-Classes: BOOT-INF/classes/
-Spring-Boot-Lib: BOOT-INF/lib/
+Spring-Boot-Classes: WEB-INF/classes/
+Spring-Boot-Lib: WEB-INF/lib/
 Created-By: Apache Maven 3.5.0
 Build-Jdk: 1.8.0_131
 Implementation-URL: http://projects.spring.io/spring-boot/greet/

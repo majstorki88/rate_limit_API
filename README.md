@@ -12,10 +12,12 @@ Kreirano je:
 
 - aplikacija za SpringBoot koja se prva pokreće i pokreće aplikaciju - GreetApplication.java na lokaciji src\main\java\com\nemanja\greet\
 
+- GreetInitializer - implementira Spring Boot servlet i omogućava aplikaciji da se deployuje na bilo koji tomcat.
 
-Aplikacija broji hint-ove prema URL-u http://localhost/greet/me
 
-i vraća ispis Hi, me!
+Aplikacija broji hint-ove prema URL-u http://localhost:8080/greet/$ime
+
+i vraća ispis Hi, $ime!
 
 Brojač je podešen da se resetuje nakon 60 sekundi i nakon 10 pokušaja vraća response:
 429 - Too Many Requests

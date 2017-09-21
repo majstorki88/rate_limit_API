@@ -6,7 +6,7 @@
 	<groupId>com.nemanja</groupId>
 	<artifactId>greet</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>jar</packaging>
+	<packaging>war</packaging>
 
 	<name>greet</name>
 	<description>Demo project for Spring Boot</description>
